@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+        @keyframes gira {
+
+            100%{
+
+                transform: rotate(360deg);
+            }
+        }
+
+        body{
+
+            background-color: rgb(41, 40, 40);
+        }
+        
+        div{
+
+            width: 80px;
+            height: 80px;
+            border-radius: 100%;
+            border: 5px solid rgb(204, 10, 10);
+            position: absolute;
+            top: 10%;
+            left: 10%px;
+            border-left-color:  rgb(41, 40, 40);
+            animation: gira 1s linear infinite;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <div></div>
+    
+</body>
+</html>
